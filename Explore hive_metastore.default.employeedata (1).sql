@@ -9,3 +9,6 @@ SELECT empname, AVG(salary) AS avgsalary FROM employeedata GROUP BY empname;
 
 SELECT empname 
 FROM employeedata WHERE country = 'china';
+
+Select empname
+FROM employeedata WHERE designation = 'data engineer'
