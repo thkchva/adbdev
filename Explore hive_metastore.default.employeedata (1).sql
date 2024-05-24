@@ -12,3 +12,6 @@ FROM employeedata WHERE country = 'china';
 
 Select empname
 FROM employeedata WHERE designation = 'data engineer'
+
+Select empname
+FROM employeedata WHERE id = '2'
